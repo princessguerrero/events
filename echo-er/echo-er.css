@@ -1,0 +1,16 @@
+body {
+    background-color: rebeccapurple;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.textdecor {
+    text-decoration: underline;
+}
+
+.font {
+    font-family: Arial;
+}
