@@ -10,4 +10,4 @@ document.addEventListener('click', function(event) {
         content.style.backgroundColor = "peachpuff"
     }
     
-})
+}) 
