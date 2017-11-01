@@ -3,9 +3,10 @@ document.addEventListener('keypress', function (event) {
     elem.innerText = elem.innerText + event.key;
     var character = event.key;
 
-    if (character === "."
-        || character === "?"
-        || character === "!") {
+    // if (character === "."
+    //     || character === "?"
+    //     || character === "!") {
+    if (".?!".includes(event.key)) {
         elem.classList.remove("textdecor")
     } else if (event.charCode <= 90 && event.charCode >= 65) {
         elem.classList.add("textdecor")
