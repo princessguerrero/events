@@ -19,14 +19,14 @@ listItems.addEventListener("click", function (event) {
     }
 })
 
-let submit = document.querySelector("#submit");
+var submit = document.querySelector("#submit");
 submit.addEventListener("click", function (event) {
     event.preventDefault();
     newList();
     // console.log(listItems.childNodes.length);
 })
 
-let button = document.querySelector("#removedone");
+var button = document.querySelector("#removedone");
 button.addEventListener("click", function (event) {
     var listItems = document.querySelectorAll('li')
     var list = document.querySelector('ul')
